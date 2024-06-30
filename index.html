@@ -2,30 +2,16 @@
 <html lang="en">
 <head>
   <title> JAVASCRIPT</title>
-  <script>
-var names = ["kusuma",500, 5.434, "akshaya", "jyothika"];
- names.pop() ; names.push("Sweety");
-console.log(names); 
-
-  function functionName(x) {
-      for( var i=2; i<x; i++){
-       if(x%i == 0){
-        var num = 0;
-       } }
-       if( num === 0) { console.log("is not prime"); return 0;}
-       else {
-        console.log("is prime");
-       }
-      }
-  
-  functionName( 113 );
-
+  <script src="index.js">
   </script>
+  <link rel="stylesheet" href="styles.css">
    </head>
   <body>
-    <div style="background-color: aqua; margin: 200px;width: 25%; height: 250px;">
-     heyy
-    </div>
+      <div> 
+        <input id="num" type="text" placeholder="Your Name">
+    <button onclick="func()">Click Me!</button>
+    <p id="para"></p>
+      </div>
   </body> 
   </html>
   
