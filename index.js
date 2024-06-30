@@ -4,6 +4,12 @@ function func(){
     document.getElementById("para").innerHTML = "Hello " + x ;
     document.getElementById("para").style.color = "red";
     document.getElementById("num").value="";
-    alert("hello "+ x);
+    alert("hello "+ x)
+}
 
+function table(){
+    var n = document.getElementById("num").value;
+    for( var i=1; i<=10; i++){
+        document.getElementById("para").innerHTML = n + "X" + i  + "=" + i*n ;
+        }
 }
